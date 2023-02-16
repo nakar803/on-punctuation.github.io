@@ -1,0 +1,219 @@
+body{
+    overflow:idden ;
+}
+
+
+
+
+h1{
+    font-family: "copperplate";
+    font-size: 100px;
+    text-align: center;
+    padding-top: 37%;
+}
+
+h2{
+    font-family: "dela gothic one";
+    font-size: 80px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -70px;
+}
+
+
+h3{
+    font-family: "copperplate";
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    width: 420px;
+    height: 30px;
+    left: 30px;
+    top: -10px;
+}
+
+
+h4{
+    font-family: "dela gothic one";
+    font-size: 30px;
+    text-align: left;
+    font-weight: lighter;
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    left: 30px;
+    top: 20px;
+}
+
+h5{
+    font-family: "copperplate";
+    font-size: 80px;
+    position: absolute;
+    left:655px;
+    top:300px;
+    color:white;
+    z-index: 2;
+
+  
+}
+
+
+a{
+    font-family: "copperplate";
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: bold;
+    color: fuchsia;
+    position: absolute;
+    top: 535px;
+    left: 884px;
+}
+
+
+
+
+.Pinkrectangle {
+    width: 150px;
+    background-color:fuchsia;
+    position: absolute;
+    width: 170px;
+    height: 120px;
+    left: 630px;
+    top: 425px;
+    
+  }
+
+
+.rectangle {
+    height: 125px;
+    width: 150px;
+    background-color: rgba(134, 131, 131, 0.495);
+    position: absolute;
+    width: 170px;
+    left: 630px;
+    top: 300px;
+    font-family: "copperplate";
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+        
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body{
+        overflow:idden ;
+    }
+    
+    
+    
+    
+    h1{
+        font-family: "copperplate";
+        font-size: 40px;
+        text-align: center;
+        padding-top: 37%;
+        position: absolute;
+        top: 400px;
+        left: 17vh;
+
+    }
+    
+    h2{
+        font-family: "dela gothic one";
+        font-size: 30px;
+        text-align: center;
+        font-weight: lighter;
+        position: absolute;
+        top: 740px;
+        left: 15vh;
+    }
+    
+    
+    h3{
+        font-family: "copperplate";
+        font-size: 20px;
+        text-align: left;
+        position: absolute;
+        width: 420px;
+        height: 30px;
+        left: 24vh;
+        top: 10px;
+    }
+    
+    
+    h4{
+        font-family: "dela gothic one";
+        font-size: 20px;
+        text-align: left;
+        font-weight: lighter;
+        position: absolute;
+        width: 450px;
+        height: 30px;
+        left: 21vh;
+        top: 20px;
+    }
+    
+    h5{
+        font-family: "copperplate";
+        font-size: 80px;
+        position: absolute;
+        left:27.5vh;
+        top:300px;
+        color:white;
+        z-index: 2;
+    
+      
+    }
+    
+    
+    a{
+        font-family: "copperplate";
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: bold;
+        color: fuchsia;
+        position: absolute;
+        top: 611.6px;
+        left: 43.75vh;
+    }
+    
+    
+    
+    
+    .Pinkrectangle {
+        width: 150px;
+        background-color:fuchsia;
+        position: absolute;
+        width: 170px;
+        height: 120px;
+        left: 24vh;
+        top: 425px;
+        
+      }
+    
+    
+    .rectangle {
+        height: 125px;
+        width: 150px;
+        background-color: rgba(134, 131, 131, 0.495);
+        position: absolute;
+        width: 170px;
+        left: 24vh;
+        top: 300px;
+        font-family: "copperplate";
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+            
+      }
+
+
+
+
+
+
+
+
+
+  }

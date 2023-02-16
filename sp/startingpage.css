@@ -1,0 +1,95 @@
+
+body{background-color:rgb(255, 255, 255);
+  overflow: hidden;
+
+}
+
+
+.pinkrectangle {
+  height: 125px;
+  width: 150px;
+  background-color:magenta;
+  margin-left:5%;
+  margin-top:35%;
+}
+
+
+.rectangle {
+  height: 125px;
+  width: 150px;
+  background-color: rgba(134, 131, 131, 0.495);
+  margin-left:5%;
+      
+}
+
+a{
+  font-family: "copperplate";
+  font-weight: bold;
+  font-size: 80px;
+  margin-left:12%;
+  text-decoration: none;
+  color:white;
+  
+}
+
+p{
+  font-family: "dela gothic one";
+  font-weight: 100;
+  font-size: 80px;
+  position: absolute;
+  top: -15px;
+  right:8vh;
+  text-align: right;
+
+}
+
+h1{
+  color:fuchsia;
+  font-family: "dela gothic one";
+  font-weight: 100;
+  font-size: 80px;
+  position: absolute;
+  top: 11.5px;
+  right:8vh;
+  text-align: right;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+.pinkrectangle {
+  height: 125px;
+  width: 150px;
+  background-color:magenta;
+  margin-left:35%;
+  margin-top:75%;
+  z-index: 2;
+
+}
+
+
+.rectangle {
+  height: 125px;
+  width: 150px;
+  background-color: rgba(134, 131, 131, 0.495);
+  margin-left:35%;
+  z-index: 2;
+      
+}
+
+p{
+  font-family: "dela gothic one";
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right:21vh;
+  text-align: center;
+
+}
+
+
+
+}

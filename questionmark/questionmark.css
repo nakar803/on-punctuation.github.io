@@ -1,0 +1,190 @@
+a{
+    text-decoration: none;
+    color: fuchsia;
+}
+
+
+p{
+    font-family: "copperplate";
+    color: black;
+    position: absolute;
+    width: 1080px;
+    height: 867px;
+    left: 180px;
+    top: 246px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 32px;
+
+}
+
+h1{
+    font-family: "dela gothic one";
+    position: absolute;
+    width: 400px;
+    height: 73px;
+    left: 62px;
+    top: 105px;
+    font-size: 38px;
+    font-weight: 100;
+
+}
+
+h2{
+    font-family: "copperplate";
+    color: fuchsia;
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 62px;
+    top: 50px;
+    font-size: 30px;
+}
+
+
+h3{
+    font-family: "copperplate";
+    color: fuchsia;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    right: 20px;
+    top: 1450px;
+    font-size: 45px;
+}
+
+
+
+h4{
+    font-family: "copperplate";
+    color: fuchsia;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 62px;
+    top: 1450px;
+    font-size: 45px;
+}
+
+h5{
+    font-family: "copperplate";
+    color: black;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    right: 20px;
+    top: 1380px;
+    font-size: 45px;
+    font-size: 40px;
+    font-family: "dela gothic one";
+    font-weight: 100;
+}
+
+h6{
+    font-family: "copperplate";
+    color: black;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 65px;
+    top: 1370px;
+    font-size: 40px;
+    font-family: "dela gothic one";
+    font-weight: 100;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    a{
+        text-decoration: none;
+        color: fuchsia;
+    }
+    
+    
+    p{
+        font-family: "copperplate";
+        color: black;
+        position: absolute;
+        width: 390px;
+        height: 1000px;
+        left: 9vh;
+        top: 246px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 32px;
+    
+    }
+    
+    h1{
+        font-family: "dela gothic one";
+        position: absolute;
+        width: 400px;
+        height: 73px;
+        left: 24vh;
+        top: 50px;
+        font-size: 55px;
+        font-weight: 100;
+    
+    }
+    
+    h2{
+        font-family: "copperplate";
+        color: fuchsia;
+        position: absolute;
+        left: 23.5vh;
+        top: 40px;
+        font-size: 25px;
+    }
+    
+    
+    h3{
+        font-family: "copperplate";
+        color: fuchsia;
+        position: absolute;
+       
+        left: 51vh;
+        top: 1438px;
+        font-size: 23px;
+    }
+    
+    
+    
+    h4{
+        font-family: "copperplate";
+        color: fuchsia;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left: 8.5vh;
+        top: 1430px;
+        font-size: 23px;
+    }
+    
+    h5{
+        color: black;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left: 52vh;
+        top: 1385px;
+        font-size: 23px;
+        font-family: "dela gothic one";
+        font-weight: 100;
+    }
+    
+    h6{
+        color: black;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left: 9vh;
+        top: 1370px;
+        font-size: 23px;
+        font-family: "dela gothic one";
+        font-weight: 100;
+    }
+}
