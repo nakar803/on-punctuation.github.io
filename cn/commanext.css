@@ -3,8 +3,8 @@ body{
 }
 
 a{
-    text-decoration:none ;
     color: fuchsia;
+    text-decoration: none;
 }
 
 p{
@@ -69,3 +69,80 @@ h4{
     top: 680px;
     font-size: 45px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow: hidden;
+    }
+    
+    a{
+        text-decoration:none ;
+        color: fuchsia;
+    }
+    
+    p{
+        font-family: "copperplate";
+        color: black;
+        font-size: 35px;
+        position: absolute;
+        width: 420px;
+        height: 766px;
+        left: 60px;
+        top: 10px;
+        line-height: 50px;
+    }
+    
+    
+    h1{
+        font-family: "copperplate";
+        color: black;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left: 8vh;
+        top: 663px;
+        font-size: 23px;
+        font-family: "dela gothic one";
+        font-weight: 100;
+    }
+    
+    
+    h2{
+        font-family: "copperplate";
+        color: fuchsia;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left:8vh;
+        top: 690px;
+        font-size: 23px;
+    }
+    
+    
+    h3{
+        font-family: "copperplate";
+        color: black;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left:53.5vh;
+        top: 657px;
+        font-size: 22px;
+        font-family: "dela gothic one";
+        font-weight: 100;
+    }
+    
+    h4{
+        font-family: "copperplate";
+        color: fuchsia;
+        position: absolute;
+        width: 178px;
+        height: 28px;
+        left:53.5vh;
+        top: 678px;
+        font-size: 23px;
+    }
+}
+
+

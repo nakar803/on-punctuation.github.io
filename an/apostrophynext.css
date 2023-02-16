@@ -76,3 +76,83 @@ h4{
 }
 
 
+@media only screen and (max-width: 600px) {
+
+
+
+
+a{
+    text-decoration:none ;
+    color: fuchsia;
+}
+
+
+
+
+
+p{
+    font-family: "copperplate";
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    width: 420px;
+    height: 766px;
+    left: 60px;
+    top: 10px;
+    line-height: 50px;
+}
+
+
+h1{
+    font-family: "copperplate";
+    color: black;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 8.5vh;
+    top: 660px;
+    font-size: 23px;
+    font-family: "dela gothic one";
+    font-weight: 100;
+}
+
+
+h2{
+    font-family: "copperplate";
+    color: fuchsia;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 8.5vh;
+    z-index: 999;
+    top: 695px;
+    font-size: 23px;
+}
+
+
+h3{
+    font-family: "copperplate";
+    color: black;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 52vh;
+    top: 650px;
+    font-size: 23px;
+    font-family: "dela gothic one";
+    font-weight: 100;
+}
+
+h4{
+    font-family: "copperplate";
+    color: fuchsia;
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 52.5vh;
+    top: 680px;
+    z-index: 999;
+    font-size: 23px;
+
+}
+}

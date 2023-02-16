@@ -7,6 +7,8 @@ a{
 
 
 
+
+
 p{
     font-family: "copperplate";
     color: black;
@@ -106,6 +108,8 @@ h6{
         text-decoration: none;
         color: fuchsia;
     }
+
+
     
     
     p{
@@ -147,7 +151,7 @@ h6{
         font-family: "copperplate";
         color: fuchsia;
         position: absolute;
-       
+        z-index: 999;
         left: 51vh;
         top: 905px;
         font-size: 23px;
@@ -161,6 +165,8 @@ h6{
         position: absolute;
         width: 178px;
         height: 28px;
+        z-index: 999;
+
         left: 8.5vh;
         top: 900px;
         font-size: 23px;
